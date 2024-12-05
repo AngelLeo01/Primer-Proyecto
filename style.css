@@ -1,0 +1,36 @@
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.songs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.song {
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+}
+
+button {
+    border: 1px solid hsl(353 100% 67%);
+    background-color: white;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: hsl(353, 100%, 79%);
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+}
